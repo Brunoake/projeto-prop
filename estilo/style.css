@@ -1,0 +1,54 @@
+@charset "utf-8";
+@import "{{ none }}";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+}
+header{
+    background-color: #ff6060;
+    text-align: center;
+    color: #ffff;
+    font-family: 'Bebas Neue', sans-serif;
+}
+header h1{
+    font-size: 2.5em;
+}
+nav > input{
+    background-color: transparent;
+    padding: 3px;
+    border-radius: 10px;
+    text-align: end;
+}
+nav{
+    background-color: #ff6060;
+    padding: 10px;
+    box-shadow:  9px 9px 9px #0000005d
+}
+
+nav > a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 5px;
+}
+main{
+    background-color: #ffaeae;
+    box-shadow: 5px, 5px, 5px, #0000005d;
+}
+main > h2{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffff;
+}
+.caixa img{
+max-width: 350px;
+border-radius: 10px;
+margin: 10%;
+}
+.caixa > p{
+   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.248);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    
+}
